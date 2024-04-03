@@ -66,7 +66,7 @@
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">About Us</h2>
+                <h2 class="text-center mt-0">Services We Offer</h2>
                 <hr class="divider" />
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 text-center">
@@ -169,32 +169,50 @@
                         <!-- To make this form functional, sign up at-->
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
+<form id="contactForm" data-sb-form-api-token="API_TOKEN">
+    <!-- Name input-->
+    <div class="form-floating mb-3">
+        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+        <label for="name">Full name</label>
+        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+    </div>
+    <!-- Email address input-->
+    <div class="form-floating mb-3">
+        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+        <label for="email">Email address</label>
+        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+    </div>
+    <!-- Phone number input-->
+    <div class="form-floating mb-3">
+        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+        <label for="phone">Phone number</label>
+        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+    </div>
+    <!-- Make/Model/Year input-->
+    <div class="form-floating mb-3">
+        <input class="form-control" id="makeModelYear" type="text" placeholder="Make/Model/Year" data-sb-validations="required" />
+        <label for="makeModelYear">Make/Model/Year</label>
+        <div class="invalid-feedback" data-sb-feedback="makeModelYear:required">Make/Model/Year is required.</div>
+    </div>
+    <!-- Vehicle Identification Number (VIN) input-->
+    <div class="form-floating mb-3">
+        <input class="form-control" id="vin" type="text" placeholder="Vehicle Identification Number (VIN)" data-sb-validations="required" />
+        <label for="vin">Vehicle Identification Number (VIN)</label>
+        <div class="invalid-feedback" data-sb-feedback="vin:required">VIN is required.</div>
+    </div>
+    <!-- Location of Damage input-->
+    <div class="form-floating mb-3">
+        <input class="form-control" id="damageLocation" type="text" placeholder="Location of Damage" data-sb-validations="required" />
+        <label for="damageLocation">Location of Damage</label>
+        <div class="invalid-feedback" data-sb-feedback="damageLocation:required">Location of Damage is required.</div>
+    </div>
+    <!-- Message input-->
+    <div class="form-floating mb-3">
+        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem"></textarea>
+        <label for="message">Message (Optional)</label>
+    </div>
+</form>
                             <!-- Submit success message-->
                             <!---->
                             <!-- This is what your users will see when the form-->
